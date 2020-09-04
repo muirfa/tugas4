@@ -1,0 +1,4 @@
+email: admin@gmail.com
+pass : 123456
+
+saat menggunaka auth dan firestore terjadi error, bila tdk menggunakan berjalan seperti semula

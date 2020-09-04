@@ -1,0 +1,31 @@
+*{
+    scroll-behavior: smooth;
+}
+.imgFilter{
+    filter: brightness(0.80);
+}
+.newColorDarkLime{
+    background-color:  #64ae76;
+    border: none;
+    color: white;
+}
+.logo1{
+    animation: scaleLogo 2x infinite alternate;
+}
+@keyframes scaleLogo{
+    to{
+        transform: scale(1.2);
+    }
+}
+.card img{
+    transition: transform 2s;
+}
+
+.card img:hover{
+    transform: scale(1.1);
+}
+.cardImg{
+    position: relative;
+    overflow: hidden;
+    cursor: pointer;
+}
